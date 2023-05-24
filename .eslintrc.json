@@ -1,0 +1,16 @@
+
+  {
+    "parser": "@babel/eslint-parser",
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "plugins": [
+      "babel"
+    ],
+    "rules": {
+      "semi": ["error", "never"],
+      "quotes": ["error", "single"]
+    }
+  }
+  
